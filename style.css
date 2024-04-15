@@ -1,0 +1,91 @@
+* {
+  background: white;
+}
+
+.navbar {
+  height: 90px;
+  width: 100%;
+}
+
+.main_logo {
+  height: 45px;
+  width: 260px;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.search_box {
+  height: 42px;
+  width: 900px;
+  position: relative;
+  left: 400px;
+  bottom: 20px;
+  border: 1px solid silver;
+  border-radius: 9px;
+}
+
+input {
+  text-indent: 20px;
+}
+
+.icon {
+  position: relative;
+  bottom: 50px;
+  left: 1280px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.delivery {
+  position: relative;
+  bottom: 75px;
+  left: 1720px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.punch {
+  position: relative;
+  bottom: 195px;
+  left: 1520px;
+  cursor: pointer;
+  width: 200px;
+}
+.bangladesh {
+  background-color: green;
+  width: 24px;
+  height: 16px;
+  position: relative;
+  left: 120px;
+  bottom: 18px;
+}
+.bangladesh::after {
+  content: "";
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 6.5px;
+  top: 3px;
+}
+.account {
+  position: relative;
+  bottom: 110px;
+  left: 1780px;
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.cart {
+  position: relative;
+  bottom: 145px;
+  left: 1830px;
+  height: 54px;
+  width: 54px;
+  cursor: pointer;
+}
